@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	 user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Criativa</title>	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	 <link href="css/lity.css" rel="stylesheet"/>
+
+</head>
+<body>
+	
+<header>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="img/icons/criativa-logo.png" alt=""></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Sobre</a></li>
+	        <li><a href="#">Equipe</a></li> 
+	        <li><a href="#">Galeria</a></li> 
+	        <li><a href="#">Vídeos</a></li> 
+	        <li><a href="#">Contato</a></li>      
+	      </ul>    
+	   
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>	
+</header>
+
+<section class="banner">
+	<div class="container">		
+		<div class="text-banner">
+			<img src="img/icons/text-banner.png" alt="banner da Criativa" class="text">
+			<a href="#anchor"><img  src="img/icons/mouse.png" alt="" class="mouse-icon"></a>			
+		</div>
+	</div>	
+</section>
+
+
+<section class="presentation">
+	<div class="container">
+		<div class="text" id="anchor">
+			<h2>DETALHES DA CRIAÇÃO </h2>
+			<p>O detalhes fazem toda a diferença em um projeto de interiores.<br>
+			 Nos atentamos com as marcenarias, iluminação e artes.</p>
+		</div>
+	</div>
+</section>
+
+<section class="showcase">
+		<div class="text">
+			<h2>TODAS AS TÉCNICAS USADAS</h2>		
+		</div>
+	<div class="container">		
+		<div class="icon-group">
+			<div class="group">
+				<img src="img/icons/graphic.png" alt="">
+				<h3>Sit Ipsum Justo</h3>
+				<p>Donec id elit non mi porta gravida at
+				 eget metus. Aet eget metus</p>
+			</div>
+		</div>
+
+		<div class="icon-group">
+			<div class="group">
+				<img src="img/icons/paint-roller.png" alt="">
+				<h3>Sit Ipsum Justo</h3>
+				<p>Donec id elit non mi porta gravida at
+				 eget metus. Aet eget metus</p>
+			</div>
+		</div>
+
+		<div class="icon-group">
+			<div class="group">
+				<img src="img/icons/layout.png" alt="">
+				<h3>Sit Ipsum Justo</h3>
+				<p>Donec id elit non mi porta gravida at
+				 eget metus. Aet eget metus</p>
+			</div>
+		</div>
+
+		<div class="icon-group">
+			<div class="group">
+				<img src="img/icons/compass.png" alt="">
+				<h3>Sit Ipsum Justo</h3>
+				<p>Donec id elit non mi porta gravida at
+				 eget metus. Aet eget metus</p>
+			</div>
+		</div>
+
+	</div><!--container-->
+</section><!--end of showcase-->
+
+<section class="art-1">
+	<div class="text">
+			<h2>CONHEÇA ALGUNS DE NOSSOS TRABALHOS</h2>
+		</div>
+	<div class="container">		
+		<div class="description">
+			<img src="img/gallery/7.jpg" alt="">
+			<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisInteger posuere erat a ante venenatis dapibus posuere velit aliquet. </p>
+		</div>
+	</div>
+</section>
+
+<section class="art-2">
+	<div class="container">		
+		<div class="description">			
+			<p>Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui.Pellentesque Nullam Risus Tristique Tortor. </p>
+			<img src="img/gallery/9.jpg" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="gallery">
+	<div class="images">
+		<a href=""><img src="img/gallery/7.jpg" alt=""></a>
+		<a href=""><img src="img/gallery/1.jpg" alt=""></a>
+		<a href=""><img src="img/gallery/4.jpg" alt=""></a>
+		<a href=""><img src="img/gallery/6.jpg" alt=""></a>
+		<a href=""><img src="img/gallery/5.jpg" alt=""></a>
+		<a href=""><img src="img/gallery/2.jpg" alt=""></a>
+	</div>
+</section>
+
+<section class="showcase-2">
+	<div class="text">
+		<h2>DECORAMOS O QUE VOCÊ PRECISAR</h2>
+	</div>
+	<div class="container">		
+		<div class="item">
+			<img src="img/icons/business.png" alt="">
+			<h3>Vestibulum Sem Porta</h3>
+			<p>Donec sed odio dui. Donec id elit
+			 non mi porta gravida at eget metus.</p>
+		</div>
+		<div class="item">
+			<img src="img/icons/child.png" alt="">
+			<h3>Vestibulum Sem Porta</h3>
+			<p>Donec sed odio dui. Donec id elit
+			 non mi porta gravida at eget metus.</p>
+		</div>
+		<div class="item">
+			<img src="img/icons/restaurant.png" alt="">
+			<h3>Vestibulum Sem Porta</h3>
+			<p>Donec sed odio dui. Donec id elit
+			 non mi porta gravida at eget metus.</p>
+		</div>
+		<div class="item">
+			<img src="img/icons/condon.png" alt="">
+			<h3>Vestibulum Sem Porta</h3>
+			<p>Donec sed odio dui. Donec id elit
+			 non mi porta gravida at eget metus.</p>
+		</div>
+
+	</div>
+</section>
+
+<section class="call-to-action">
+	<div class="text">
+		<h2>Confira o vídeo demonstrativo</h2>
+	</div>
+	<div class="container">		
+		<div class="thumb">
+			<a href=""><img src="img/icons/hand-finger-pointing-down.png" alt=""></a>
+		</div>
+	</div>
+</section>
+
+<section class="video">
+		<div class="container">
+			<div class="player">
+				<a  href="https://www.youtube.com/watch?v=Uqprks01Cls" data-lity><img src="img/icons/play-button.png" alt=""></a>
+			</div>
+		</div>	
+</section>
+
+<section class="e-mail-marketing">
+		<div class="text">
+			<h2>BOLETIM DE NOTÍCIAS</h2>
+			<p>Assine o nosso boletim e receba novidades no seu e-mail</p>
+		</div>
+	<div class="container">		
+		<form action="" method="POST">
+			<input type="email" placeholder="Seu e-mail">
+			<div class="btn">
+				<a href="">Enviar</a>
+			</div>
+		</form>
+	</div>
+</section>
+
+<section class="contact-us">			
+			<div class="text">
+				<h2>Fale conosco</h2>				
+			</div>		
+				
+			<div class="container">						
+				<div class="contact-info">
+					<div class="location">
+						<img src="img/icons/location.png" alt="">
+						<p>Rua dos Ypês, 333<br> São Carlos - SP</p>
+					</div>
+					<div class="phone">
+						<img src="img/icons/phone.png" alt="">
+						<p>55 12 33446969</p>
+					</div>
+					<div class="message">
+						<img src="img/icons/envelope.png" alt="">
+						<p>contato@criativa.com.br</p>
+					</div>				
+				</div>			
+
+				<div class="form">
+					<form action="mail.php" method="POST">
+						<input type="text" name="nome" placeholder="Nome" required="required">
+						<input type="email" name="email" placeholder="E-mail" required="required">			
+						<input type="text" name="assunto" placeholder="Assunto">
+						<textarea  name="msg" placeholder="Mensagem" required="required"></textarea>
+						<input  type="submit" value="Enviar">
+					</form>
+			</div>
+			
+		</div><!--container-->	
+	</section>
+
+<footer>
+	<div class="container">
+		<div class="copyright">
+			<img src="img/icons/criativa-logo.png" alt="Criativa">
+			<p>Copyright  2018 - Todos os direitos reservados.</p>
+		</div>
+
+		<div class="social-icons">
+			<a href="https://www.instagram.com" target="_blank"><img src="img/icons/instagram.png" alt=""></a>
+			<a href="https://plus.google.com/" target="_blank"><img src="img/icons/google-plus.png" alt=""></a>
+
+			<a href="https://api.whatsapp.com/send?phone=5571986234017&HelloStudio!" target="_blank"><img src="img/icons/whatsapp-logo.png" alt=""></a>
+
+			<a href="https://www.twitter.com" target="_blank"><img src="img/icons/twitter-circular-button.png" alt=""></a>
+			<a href="https://facebook.com" target="_blank"><img src="img/icons/social-facebook-circular-button.png" alt=""></a>	
+		</div>	
+
+		<div class="back-to-top">
+			<a href="#" id="back-to-top" title="Voltar para o topo"><img src="img/icons/down-arrow.png" alt=""></a>
+		</div>
+	</div>
+</footer>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/index.js"></script>
+<script src="js/lity.min.js"></script>
+</body>
+</html>
