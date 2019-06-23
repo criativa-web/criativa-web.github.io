@@ -1,0 +1,50 @@
+.services
+    background-color: $color-white
+    .text
+          @include text-center
+          h2
+               @include title
+               color: $color-secondary
+          p
+              color: $color-grey-light-1
+              font-size: 1.4rem
+              line-height: 2.4rem
+              font-style: italic
+    .service
+          @include container-row
+          flex-wrap: wrap
+          text-align: center
+          justify-content: center
+          align-items: center
+          width: 90%
+          max-width: 114rem
+          margin: auto
+
+          @include responsive(tab-port)
+               @include container-column
+
+          .item
+               flex-basis: 30%
+               flex: 1 1 30%
+               padding: 3rem
+               background-color: $color-white
+               box-shadow: 0 0 2rem rgba(0,0,0,.1)
+               margin: .5rem
+               transition: all ease .3s
+               &:hover
+                    transform: translateY(-.75rem)
+               img
+                    width: 6.4rem
+                    height: 6.4rem
+                    margin-bottom: 2rem
+               h3
+                    margin-bottom: 2rem
+                    font-size: 1.6rem
+                    font-weight: $heavy-font
+               p
+
+                    margin: auto
+                    font-weight: $medium-font
+                    line-height: 2rem
+                    font-size: 1.4rem
+                    color: $color-grey-light-1

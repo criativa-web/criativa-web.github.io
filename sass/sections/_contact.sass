@@ -1,0 +1,55 @@
+.contact
+     position: relative
+     top: -3.5rem
+     background-color: $color-white
+     .contact-box
+          @include container-row
+          margin: auto
+          width: 90%
+          max-width: 114rem
+          @include responsive(tab-port)
+               @include container-column
+
+          .box
+               flex-basis: 24%
+               flex: 1 1 24%
+               max-height: 30rem
+               padding: 3rem
+               background-color: $color-white
+               box-shadow: 0 0 2rem rgba(0,0,0,.1)
+               margin: .5rem
+               transition: all ease .3s
+               text-align: center
+               justify-content: center
+               &:hover
+                    transform: translateY(-.75rem)
+               img
+                    width: 3.2rem
+                    margin-bottom: 2rem
+               h3
+                    margin-bottom: 2rem
+                    font-size: 1.6rem
+
+               h5
+                    margin-bottom: 2rem
+                    font-size: 1.4rem
+                    color: $color-primary
+                    font-weight: $medium-font
+
+               p
+                    margin-bottom: 2rem
+                    font-size: 1.45rem
+
+
+
+          .box-large
+
+               max-height: 30rem
+               padding: 8.5rem 3rem
+               h3
+                    margin-bottom: 4rem
+               nav
+                    a
+                         margin: .5rem
+                    img
+                         width: 2.5rem

@@ -1,0 +1,49 @@
+section
+    padding: 8rem 4rem
+    @include responsive(phone)
+          padding: 4rem 2rem
+.about
+    width: 90%
+    max-width: 114rem
+    margin: auto
+    @include container-row
+    @include responsive(tab-port)
+          @include container-column
+          @include text-center
+    @include responsive(phone)
+        padding: 2rem
+
+    div
+        flex-basis: 32%
+        flex: 1 1 32%
+    h2
+        font-weight: $heavy-font
+        font-size: 2.8rem
+        margin: 2rem auto
+
+    p
+        width: 80%
+        font-size: 1.6rem
+        margin: 2rem 0
+        line-height: 2.5rem
+        @include responsive(tab-port)
+          width: 100%
+
+
+    .social
+        h3
+            font-size: 1.8rem
+            font-weight: $medium-font
+            margin: 1rem auto
+        img
+            width: 2.4rem
+            transition: all ease .3s .12s
+            margin: 1rem
+            &:hover
+                transform: translate(1%, -1%) scale(1.15)
+        @include responsive(phone)
+            margin: 2rem 0
+    .picture
+        img
+            width: 80%
+            height: 100%

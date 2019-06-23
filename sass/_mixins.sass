@@ -1,0 +1,30 @@
+@mixin container-row
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+@mixin container-column
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 2rem auto
+@mixin border
+    border: 1px solid rgba(#c0c0c0, .55)
+@mixin text-center
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 4rem auto
+    text-align: center
+
+@mixin title
+     font-size: 5rem
+     line-height: 5rem
+     color: $color-white
+     font-weight: $heavy-font
+     margin-bottom: 1rem
+     @include responsive(phone)
+          font-size: 2.5rem
+          line-height: 3.2rem

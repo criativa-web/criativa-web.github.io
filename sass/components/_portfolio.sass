@@ -1,0 +1,74 @@
+#myBtnContainer
+     position: relative
+     margin-bottom: 6rem
+
+     h5
+          font-size: 1.5rem
+          font-weight: $medium-font
+     .btn
+          border: none
+          outline: none
+          padding: 1.2rem 1.6rem
+          background-color: $color-white
+          cursor: pointer
+          border-radius: 3px
+          transition: ease all .4s
+          @include responsive(phone)
+               padding: .7rem .8rem
+               margin: .5rem
+
+          &:hover
+               background-color: $color-primary
+               color: $color-white
+     .active
+          background-color: $color-primary-dark
+          color: $color-white
+
+.portfolio-grid
+     margin: auto
+     width: 100%
+     max-width: 114rem
+     position: relative
+     display: flex
+     flex-direction: row
+     justify-content: space-between
+     flex-wrap: wrap
+     
+     .col
+          flex-basis: 32%
+          flex: 1 1 32%
+          margin: .5rem
+          display: none
+          position: relative
+          overflow: hidden
+          cursor: pointer
+          @include responsive(phone)
+               flex-basis: 98%
+               flex: 1 1 98%
+
+          img
+               width: 100%
+               vertical-align: middle
+          &:hover .text
+               transform: translate(0%, -100%)
+               visibility: visible
+               opacity: 1
+          .text
+
+               background-color: rgba(#c69963, .75)
+               color: #fff
+               font-size: 2.5rem
+               text-align: center
+               position: absolute
+               width: 100%
+               height: 100%
+               transition: all .5s .5s
+
+               display: flex
+               flex-direction: column
+               justify-content: space-around
+               img
+                    width: 3.2rem
+
+     .show
+          display: block

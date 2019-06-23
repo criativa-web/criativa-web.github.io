@@ -1,0 +1,71 @@
+.top
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    @include responsive(tab-port)
+        justify-content: center
+        align-items: center
+        height: auto
+    .brand-mobile
+        display: none
+        @include responsive(tab-port)
+            display: block
+        img
+            @include responsive(phone)
+                width: 7.5rem
+                height: 7.5rem
+    .brand-desktop
+        display: block
+        text-align: center
+        margin-top: 6rem
+        @include responsive(tab-port)
+            display: none
+        img
+            width: 9rem
+            height: 9rem
+        h1
+            margin-top: .5rem
+            font-size: 2.2rem
+            @include responsive(phone)
+                font-size: 1.8rem
+            span
+                color: $color-primary
+        h4
+            font-size: 1.4rem
+            margin-bottom: 4rem
+            font-style: italic
+            span
+                color: $color-primary
+
+    nav
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        border-top: 1px solid rgba(255, 255, 255,.15)
+        padding-top: 3rem
+        @include responsive(tab-port)
+            flex-direction: row
+            justify-content: center
+            border: none
+            padding-top: .5rem
+        a
+            text-decoration: none
+            margin: 1rem 0
+            color: $color-white
+            font-size: 1.65rem
+            text-transform: uppercase
+            font-weight: $heavy-font
+            transition: ease all .4s .4s
+            padding-bottom: .5rem
+            letter-spacing: 2.75px
+            position: relative
+            @include responsive(phone)
+                letter-spacing: normal
+            &:hover
+                color: $color-primary
+
+            @include responsive(tab-port)
+                margin: 0 .5rem
+            @include responsive(phone)
+                font-size: 1.5rem

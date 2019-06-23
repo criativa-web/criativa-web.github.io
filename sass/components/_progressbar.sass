@@ -1,0 +1,116 @@
+.technical-skills
+	height: 60vh
+	background-size: cover
+	position: relative
+	top: -3rem
+	h2
+		color: $color-secondary
+		position: relative
+		top: 3rem
+	p.title
+		color: $color-secondary
+		position: relative
+	.heading-line
+		background: $color-white
+	.skills-wrapper
+		margin-top: 2rem
+		.chart
+			position: relative
+			display: inline-block
+			color: $color-secondary
+			font-size: 1.4rem
+			font-weight: 400
+			text-transform: uppercase
+			>span
+				display: flex
+				align-items: center
+				justify-content: center
+				position: absolute
+				width: 100%
+				height: 100%
+				top: 0
+				left: 0
+				right: 0
+				bottom: 0
+				font-size: 1.4rem
+		h2
+			margin-top: 1rem
+			text-transform: uppercase
+	.other-skills
+
+	.bar_group
+		text-align: left
+		position: relative
+
+		.elastic
+			background: $color-primary
+			-webkit-transition-timing-function: cubic-bezier(.5, .25, .375, 1.335)
+			transition-timing-function: cubic-bezier(.5, .25, .375, 1.335)
+			-webkit-transition-duration: 1s
+			transition-duration: 1s
+	.bar_group__bar.thick
+		width: 0
+		height: 1rem
+		border-radius: 6px
+		-webkit-transition: width 1s
+		transition: width 1s
+		&::before
+			display: block
+			content: ''
+			position: absolute
+			z-index: 0
+			opacity: .1
+			width: 95%
+			height: 1rem
+			border-radius: 6px
+			background: $color-primary
+
+	.b_label
+		color: $color-secondary
+		font-size: 1.4rem
+		display: inline-block
+		padding: .6rem 0
+		margin-bottom: 0px
+		text-transform: uppercase
+		letter-spacing: 1.3px
+		-webkit-transition: all .3s
+		transition: all .3s
+		padding-left: 0
+		font-weight: $medium-font
+		&:hover
+			background: $color-white
+			color: $color-secondary
+	.b_tooltip
+
+		-webkit-transition: all 1s
+		transition: all 1s
+		position: relative
+		float: left
+		left: 100%
+		padding: .4rem 1rem .7rem 1rem
+		background-color: $color-white
+		-webkit-transform: translateX(-50%) translateY(-3rem)
+		-ms-transform: translateX(-50%) translateY(-3rem)
+		transform: translateX(-50%) translateY(-3rem)
+		border-radius: 2px
+		line-height: 1.1rem
+		box-shadow: 1px 1px 1px 1px #E2D9E2
+		span
+			font-size: 1.3rem
+			color: $color-secondary
+
+	.bar_label_max
+		color: $color-secondary
+		font-size: 1.5rem
+		position: absolute
+		bottom: -1rem
+		right: 2rem
+		opacity: 0
+
+	.bar_label_min
+		color: $color-secondary
+		font-size: 1.5rem
+		position: absolute
+		bottom: -1rem
+		left: 2rem
+		opacity: 0

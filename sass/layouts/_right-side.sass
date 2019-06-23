@@ -1,0 +1,67 @@
+
+.right-side
+    background-color:  $color-white-2
+    flex-basis: 85%
+    flex: 1 1 85%
+    position: relative
+    @include responsive(tab-port)
+        height: auto
+    .hero
+        background-image: linear-gradient(to right bottom, rgba($color-secondary, 0.85), rgba($color-secondary, 0.89)), url(../img/hero.jpg)
+        background-repeat: norepeat
+        background-size: cover
+        background-position:  right
+        background-attachment: fixed
+        height: 100vh
+        .profile
+            height: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            margin: auto
+            width: 90%
+            max-width: 100rem
+            color: $color-white
+            position: relative
+
+            img
+                width: 21.5rem
+                height: 21.5rem
+                border-radius: 100%
+                border: 8px solid rgba(255, 255, 255, .25)
+                margin-bottom: 5rem
+                @include responsive(phone)
+                    width: 18rem
+                    height: 18rem
+                    margin-top: 1rem
+                @include responsive(big-desktop)
+                    width: 20rem
+                    height: 20rem
+            p
+                font-size: 1.8rem
+                font-weight: $medium-font
+                margin-bottom: 1rem
+            .wrap
+                color: $color-white   
+
+            h2
+               @include title
+               margin-bottom: .7rem
+               @include responsive(phone)
+                    font-size: 4rem
+
+            span
+                color: $color-primary
+
+            .icon
+                position: absolute
+                top: 82%
+                //top: 75%
+                img
+                    border: none
+                    width: 1.5rem
+                    -webkit-animation: bounce 2s infinite
+                    animation: bounce 2s infinite
+                    @include responsive(phone)
+                         margin-top: -2.5rem
