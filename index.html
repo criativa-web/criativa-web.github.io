@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <title>Marcelo Anselmo - Desenvolvedor Web</title>
+   <meta name="description" content="Marcelo Anselmo - Desenvolvedor Web">
+   <meta name="author" content="Marcelo Anselmo"/>
+   <meta name="theme-color" content="#c69963">
+   <meta property="og:title" content="Marcelo Anselmo - Desenvolvedor Web;"/>
+   <meta property="og:description" content="Marcelo Anselmo - Desenvolvedor Web."/>
+   <meta property="og:type" content="porfolio"/>
+   <meta property="og:url" content="https://portfolio.hellostudio.com.br"/>
+   <meta property="og:image" content="https://portfolio.hellostudio.com.br/img/profile/me.png"/>
+   <meta property="og:site_name" content="hellostudio"/>
+   <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-   <title>Marcelo Anselmo - Desenvolvedor Web</title>
+
 </head>
 <body>
     <div class="wrapper">
@@ -31,10 +42,14 @@
                 </div><!--top-->
                 <div class="bottom">
                     <div class="social-medias">
-                        <a href=""><img src="img/icons/facebook.svg" alt="facebook"></a>
+                        <a href="https://www.facebook.com/marcelo.anselmo.9" target="_blank"><img src="img/icons/facebook.svg" alt="facebook"></a>
+
                         <a href=""><img src="img/icons/instagram.svg" alt="instagram"></a>
-                        <a href=""><img src="img/icons/behance.svg" alt="behance"></a>
-                        <a href=""><img src="img/icons/github.svg" alt="github"></a>
+
+                        <a href="https://www.behance.net/marceloans0b32" target="_blank"><img src="img/icons/behance.svg" alt="behance"></a>
+
+                        <a href="https://github.com/PilatusBRX" target="_blank"><img src="img/icons/github.svg" alt="github"></a>
+
                         <a href=""><img src="img/icons/linkedin.svg" alt="linkedin"></a>
                     </div>
                 </div><!--bottom-->
@@ -58,10 +73,14 @@
                         <p>Professor de português e inglês de formação e apaixonado por tecnologia. Há dois anos mudei de profissão e abracei esse maravilhoso mudo de criação de sites e sistemas.</p>
                         <div class="social">
                             <h3>Confira minhas redes sociais:</h3>
-                            <a href=""><img src="img/theme-icons/facebook.svg" alt="facebook"></a>
+                            <a href="https://www.facebook.com/marcelo.anselmo.9" target="_blank"><img src="img/theme-icons/facebook.svg" alt="facebook"></a>
+
                             <a href=""><img src="img/theme-icons/instagram.svg" alt="instagram"></a>
-                            <a href=""><img src="img/theme-icons/behance.svg" alt="behance"></a>
-                            <a href=""><img src="img/theme-icons/github.svg" alt="github"></a>
+
+                            <a href="https://www.behance.net/marceloans0b32" target="_blank"><img src="img/theme-icons/behance.svg" alt="behance"></a>
+
+                            <a href="https://github.com/PilatusBRX" target="_blank"><img src="img/theme-icons/github.svg" alt="github"></a>
+
                             <a href=""><img src="img/theme-icons/linkedin.svg" alt="linkedin"></a>
                         </div>
                     </div>
@@ -137,31 +156,29 @@
 
         </section><!--services-->
         <section class="portfolio-bg" id="portfolio">
-
                  <h2>Portfólio</h2>
                  <p>Conheça alguns de meus trabalhos.</p>
-
 
         </section><!--portfolio-->
 
         <section class="portfolio">
              <div id="myBtnContainer">
                     <button class="btn active" onclick="filterSelection('all')"><h5> Exibir Todos</h5></button>
-                    <button class="btn" onclick="filterSelection('wordpress')"><h5>Sites com Wordpress</h5></button>
+                    <!--<button class="btn" onclick="filterSelection('wordpress')"><h5>Sites com Wordpress</h5></button>-->
                     <button class="btn" onclick="filterSelection('static')"><h5>Sites Estáticos</h5></button>
-                    <button class="btn" onclick="filterSelection('system')"><h5>Sistemas</h5></button>
+                    <button class="btn" onclick="filterSelection('system')"><h5>Sistemas com Laravel</h5></button>
+                    <button class="btn" onclick="filterSelection('app-vue')"><h5>Aplicações com Vuejs</h5></button>
              </div>
              <!-- Portfolio Gallery Grid -->
             <div class="portfolio-grid">
-
-              <div class="col wordpress">
+              <!-- Sites com Wordpress-->
+              <!--<div class="col wordpress">
                   <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Mountains">
                  <div class="text">
                       <h4>Mountains</h4>
                       <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
-
               <div class="col wordpress">
                   <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights">
                   <div class="text">
@@ -173,7 +190,6 @@
                       <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
-
               <div class="col wordpress">
                   <img src="https://www.w3schools.com/w3images/nature.jpg" alt="wordpress">
                   <div class="text">
@@ -185,64 +201,81 @@
                       <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
+              <!-- Sites com Wordpress
 
+              <!-- Sites estáticos-->
               <div class="col static">
-                  <img src="https://www.w3schools.com/w3images/cars1.jpg" alt="Car">
+                  <img src="img/portfolio/criativa.jpg" alt="Car">
                   <div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
-                 </div><div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+                      <h4>Criativa</h4>
+                      <a href="https://portfolio.hellostudio.com.br/criativa" target="_blank" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
-
               <div class="col static">
-                  <img src="https://www.w3schools.com/w3images/cars2.jpg" alt="Car">
+                  <img src="img/portfolio/transbrasil.jpg" alt="Car">
                   <div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
-                 </div><div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+                      <h4>TransBrasil</h4>
+                      <a href="https://portfolio.hellostudio.com.br/transbrasil" target="_blank" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
-
               <div class="col static">
-                  <img src="https://www.w3schools.com/w3images/cars3.jpg" alt="Car">
+                  <img src="img/portfolio/spotify.jpg" alt="Car">
                   <div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
-                 </div><div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+                      <h4>Spotify</h4>
+                      <a href="https://portfolio.hellostudio.com.br/spotify" target="_blank" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+                 </div>
+              </div>
+              <!-- Fim dos Sites estáticos-->
+
+              <!-- Sistemas com Laravel-->
+              <div class="col system">
+                  <img src="img/portfolio/arezzo.jpg" alt="People">
+                  <div class="text">
+                      <h4>Arezzo Contatos</h4>
+                      <a href="https://arezzo-contatos.herokuapp.com" target="_blank" class="btn-project"><img src="img/icons/link.svg" alt="Arezzo Contatos"></a>
                  </div>
               </div>
 
               <div class="col system">
-                  <img src="https://www.w3schools.com/w3images/people3.jpg" alt="People">
+                  <img src="img/portfolio/ocorrente.jpg" alt="Ocorrente">
                   <div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+                      <h4>Ocorrente</h4>
+                      <a href="https://ocorrente.herokuapp.com" target="_blank" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
 
               <div class="col system">
-                  <img src="https://www.w3schools.com/w3images/people2.jpg" alt="People">
+                  <img src="img/portfolio/smart.jpg" alt="Smart!">
                   <div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+                      <h4>Smart!</h4>
+                      <a href="https://smart-link.herokuapp.com" target="_blank" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
                  </div>
               </div>
+            <!-- Fim dos Sistemas com Laravel-->
 
-
-              <div class="col system">
-                  <img src="https://www.w3schools.com/w3images/people1.jpg" alt="People">
-                  <div class="text">
-                      <h4>Mountains</h4>
-                      <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
-                 </div>
-              </div>
+            <!-- Aplicações com Vuejs-
+            <div class="col app-vue">
+                <img src="https://www.w3schools.com/w3images/people1.jpg" alt="People">
+                <div class="text">
+                    <h4>App 1</h4>
+                    <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+               </div>
+            </div>
+            <div class="col app-vue">
+                <img src="https://www.w3schools.com/w3images/people1.jpg" alt="People">
+                <div class="text">
+                    <h4>App 2</h4>
+                    <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+               </div>
+            </div>
+            <div class="col app-vue">
+                <img src="https://www.w3schools.com/w3images/people1.jpg" alt="People">
+                <div class="text">
+                    <h4>App 3</h4>
+                    <a href="#" class="btn-project"><img src="img/icons/link.svg" alt=""></a>
+               </div>
+            </div>
+            Fim das Aplicações com Vuejs-->
 
             </div>
        </section><!-- END portfolio -->
@@ -270,15 +303,19 @@
                                <img src="img/icons/envelope.svg" alt="">
                                <h3>MANDE UM E-MAIL</h3>
                                <p>Mande um e-mail detalhando que tipo de projeto precisa e receba o orçamento.</p>
-                               <h5>contato@hellostudio.com.br</h5>
+                               <h5>hellostudiocontato@gmail.com</h5>
                           </div>
                           <div class="box box-large">
                              <h3>ACESSE MINHAS REDES SOCIAIS</h3>
                              <nav>
-                              <a href=""><img src="img/icons/facebook-grey.svg" alt=""></a>
-                              <a href=""><img src="img/icons/github-grey.svg" alt=""></a>
+                              <a href="https://www.facebook.com/marcelo.anselmo.9" target="_blank"><img src="img/icons/facebook-grey.svg" alt=""></a>
+
+                              <a href= "https://github.com/PilatusBRX" target="_blank"><img src="img/icons/github-grey.svg" alt=""></a>
+
                               <a href=""><img src="img/icons/instagram-grey.svg" alt=""></a>
-                              <a href=""><img src="img/icons/behance-grey.svg" alt=""></a>
+
+                              <a href="https://www.behance.net/marceloans0b32" target="_blank"><img src="img/icons/behance-grey.svg" alt=""></a>
+
                               <a href=""><img src="img/icons/linkedin-grey.svg" alt=""></a>
                              </nav>
 
