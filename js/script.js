@@ -1,3 +1,6 @@
+
+
+
 //----------------------Smoothscroll---------------------\\
 $(document).ready(function(){
   $("a").on('click', function(event) {
@@ -13,6 +16,7 @@ $(document).ready(function(){
     } // End if
   });
 });
+
 
 //----------------------Portfolio---------------------\\
    filterSelection("all")
@@ -56,6 +60,7 @@ $(document).ready(function(){
        this.className += " active";
      });
    }
+
 
 //----------------------Preloader---------------------\\
 
@@ -203,3 +208,5 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+
+    //----------------------Modal---------------------\\
