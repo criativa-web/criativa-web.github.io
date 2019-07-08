@@ -1,0 +1,40 @@
+header
+    height: 12rem
+    background-color: transparent
+    position: fixed
+    width: 100%
+    z-index: 1
+    @include default-transition
+    @include responsive(tab-land)
+        display: none
+
+    nav
+        @include  container-row
+        padding: 6rem 0   
+        max-width: 126rem
+        position: relative
+        top: -3.2rem
+        @include default-transition
+        li
+            list-style: none
+            a
+                text-decoration: none
+                font-size: 1.7rem
+                text-transform: uppercase
+                color: $color-white
+                line-height: 7.6rem
+                font-weight: $font-heavy
+                @include default-transition
+                &:hover
+                    color: $color-accent
+
+#header.sticky
+    background-color: $color-primary-header
+    height: 6rem
+    @include default-transition
+    nav
+        top: -7rem
+    .logo
+        img
+            width: 80%
+            height: 80%

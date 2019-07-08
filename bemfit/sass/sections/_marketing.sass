@@ -1,0 +1,48 @@
+.marketing
+    background: url('../img/marketing.jpg')
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    background-attachment: fixed
+    height: 50rem
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    padding: 6rem 0
+    .text
+        h2
+            @include section-title
+            @include responsive(phone)
+                text-align: center
+                font-size: 3.7rem
+        p
+            font-size: 1.6rem
+            text-align: center
+    form
+        position: relative
+        @include container-column
+                    
+
+        input
+            outline: none
+            margin-bottom: 2rem
+            width: 35rem
+            padding: 1.6rem 0
+            background-color: transparent
+            border: 1px solid $color-white
+            font-size: 1.45rem
+            color: $color-white
+            padding-left: 2rem
+            &::placeholder
+                color: $color-white
+        .btn
+            background-color: $color-primary-dark
+            border: none
+            transition: all linear .3s .125s
+            cursor: pointer
+            position: absolute
+            top: 70%
+            left: 50%
+            transform: translate(-50%, -50%)
+            &:hover
+                background-color: $color-red

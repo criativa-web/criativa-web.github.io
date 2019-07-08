@@ -1,0 +1,49 @@
+.team
+    background-color: $color-white
+    display: flex
+    flex-direction: column
+    padding: 6rem
+    .text
+        h3
+            @include title
+            color: $color-primary-dark
+    .team-gallery
+        @include container-row
+        max-width: 140rem
+
+        .box
+            flex-basis: 15%
+            flex: 1 1 15%
+            overflow: hidden
+            margin: 1rem
+            padding: 1rem
+            background-color: $color-primary-dark
+            @include responsive(tab-land)
+                flex-basis: 30%
+                flex: 1 1 30%
+            @include responsive(phone)
+                flex-basis: 49%
+                flex: 1 1 49%
+
+            img
+                width: 100%
+                height: 20rem
+                max-width: 60rem
+                transition: transform ease .6s .25s
+                &:hover
+                    cursor: pointer
+                    transform: scale(1.45)
+
+            h5
+                font-size: 1.45rem
+                color: $color-white
+                text-align: center
+                line-height: 2.9rem
+
+    .btn-team
+        background-color: $color-primary-dark
+        border: none
+        &::before
+            &:hover
+        @include responsive(phone)
+            margin-right: 4rem       

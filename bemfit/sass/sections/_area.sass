@@ -1,0 +1,36 @@
+
+.area
+    .text
+        @include container-column
+        h2
+            @include title
+        p
+            @include paragraph
+            margin-bottom: 0
+
+    .gallery
+        @include container-row
+        padding-top:  0
+        @include responsive(phone)
+            flex-direction: column
+
+
+        .box
+            overflow: hidden
+            top: -3.2rem
+            flex-basis: 31.5%
+            flex: 1 1 31.5%
+            margin: 1rem
+            padding: 2.5rem
+            background-color: rgba($color-dark-grey-2, .2)
+            @include responsive(tab-land)
+                flex-basis: 47.5%
+            @include responsive(phone)
+                flex-basis: 98%
+
+            img
+                width: 100%
+                transition: transform ease .6s .25s
+                &:hover
+                    cursor: pointer
+                    transform: scale(1.45)

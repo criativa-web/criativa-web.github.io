@@ -1,0 +1,60 @@
+// Base button styles //
+.btn
+    color: $color-white
+    background-color: transparent
+    padding: 1.6rem 8rem
+    border-radius: 2px
+    text-transform: uppercase
+    overflow: hidden
+    position: relative
+    outline: none
+    text-decoration: none
+    font-size: 1.6rem
+    position: relative
+
+
+    @include responsive(tab-land)
+        top: 50%
+        left: 40%
+        transform: translate(-50%, -50%)
+    @include responsive(phone)
+        left: 10%
+    &:before
+
+        content: attr(data-hover)
+        position: absolute
+        left: 0
+        top: 0
+        padding: 1.6rem 0
+        text-indent: 6rem
+        overflow: hidden
+        width: 0
+        white-space: nowrap
+        transition: width 0.5s
+
+    &:hover
+        &:before
+            width: 100%
+
+.btn-blu
+    border: 2px solid $color-light-blu
+
+    &:before
+        background: $color-blu
+
+.btn-accent
+    border: 2px solid $color-accent
+    &:before
+        background: $color-accent
+
+.btn-grey
+    border: 2px solid $color-dark-grey
+    color: $color-dark-grey
+    &:before
+        background: $color-dark-grey
+        color: $color-white
+
+.btn-red
+    border: 2px solid $color-dark-red
+    &:before
+        background: $color-dark-red

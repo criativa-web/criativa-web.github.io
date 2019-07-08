@@ -1,0 +1,73 @@
+.plans
+
+    .text
+        @include container-column
+        h2
+            @include title
+            @include responsive(phone)
+                text-align: center
+                font-size: 3.7rem
+                margin-bottom: -4rem     
+    .price-tables
+        @include container-row
+        width: 114rem
+        position: relative
+        @include responsive(tab-land)
+            flex-direction: column
+
+        .plan
+            flex-basis: 33%
+            flex: 1 1 33%
+            max-width: 38rem
+            padding: 6rem 0
+            @include container-column
+            justify-content: space-around
+            align-items: center
+            min-height: 60rem
+            position: relative
+            overflow: hidden
+            border-radius: 5px
+            color: $color-white
+            @include responsive(tab-land)
+                margin: 3rem 0
+
+            .price
+                text-align: center
+
+                h5
+                    font-size: 4rem
+                    line-height: 5rem
+                p
+                    font-size: 3.6rem
+                    margin-bottom: 1.25rem
+
+                span
+                    font-size: 1.85rem
+
+                .description
+                    font-size: 1.6rem
+
+            .features
+                text-align: center
+                @include container-column
+                span
+                    font-size: 1.6rem
+                    margin-bottom: 1.25rem
+
+            .btn
+                padding: 1.6 6rem
+                text-align: left
+                @include responsive(tab-land)
+                    left: 0
+
+
+        .m-plan
+            background-image: linear-gradient(180deg, $color-blu,$color-dark-blu, $color-light-blu)
+
+        .tri-plan
+            background-image: linear-gradient(180deg, $color-red, $color-dark-red, $color-light-red)
+            min-height: 65rem
+            max-width: 40rem
+        .y-plan
+            background-color: $color-white
+            color: $color-dark-grey

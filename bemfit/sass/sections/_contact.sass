@@ -1,0 +1,174 @@
+.contact-section
+    background-color: $color-primary-light
+    .contact
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        //align-items: center
+        //align-content: center
+        //flex-wrap: wrap
+        padding: 3rem 0
+        //padding-bottom: 8rem
+        margin: auto
+        width: 90%
+        @include responsive(tab-land)
+                @include container-column
+        max-width: 140rem
+        .contact-left,
+        .contact-right
+            flex-basis: 24%
+            flex: 1 1 24%
+            text-align: left
+            @include responsive(tab-land)
+                flex-basis: 98%
+                flex: 1 1 98%
+                text-align: center
+
+        .contact-center
+            flex-basis: 46%
+            flex: 1 1 46%
+            margin: 0 1rem
+            text-align: left
+            @include responsive(tab-land)
+                flex-basis: 98%
+                flex: 1 1 98%
+                text-align: center
+
+        .contact-left
+            text-align: left
+            padding: 0 2rem
+            .left-text
+                h3
+                    @include section-title
+                    font-size: 3rem
+                p
+                    @include paragraph
+                    text-align: left
+                    max-width: 30rem
+
+            .social
+                    h3
+                        @include section-title
+                        font-size: 2.45rem
+                        text-align: left
+
+                    img
+                        width: 2.75rem
+                        margin: 0 1rem
+                        cursor: pointer
+                        margin-left: 2rem
+
+
+        .contact-center
+            position: relative
+            margin: auto
+            form
+            	padding: 20px
+            	max-width: 800px
+            	margin: 0 auto
+            	display: flex
+            	flex-direction: column
+
+            input
+                width: 100%
+                outline: none
+                margin: 1rem 0
+                height: 4.8rem
+                padding-left: 1rem
+                color: $color-dark-grey
+                font-size: 1.6rem
+                border: none
+                border-top: 4px solid $color-dark-grey
+                @include default-transition
+                &::placeholder
+                    color: rgba($color-dark-grey, .75)
+                    background: url('../img/icons/user.svg')
+                    background-size: 2rem
+                    background-repeat: no-repeat
+                    padding-left: 3rem
+            .mail
+                &::placeholder
+                    background: url('../img/icons/mail.svg')
+                    background-size: 2rem
+                    background-repeat: no-repeat
+                    padding-left: 3rem
+
+                img
+                    width: 1.2rem
+                    position: absolute
+                    top: 50%
+                    left: 50%
+
+            textarea
+                outline: none
+                min-height: 25rem
+                max-height: 38rem
+                padding-left: 1rem
+                padding-top: 1rem
+                color: $color-dark-grey
+                font-size: 1.6rem
+                border: none
+                margin-top: 1rem
+                margin-bottom: 2rem
+                border-top: 4px solid $color-dark-grey
+                @include default-transition
+                &::placeholder
+                    color: rgba($color-dark-grey, .75)
+                    background: url('../img/icons/edit.svg')
+                    background-size: 2rem
+                    background-repeat: no-repeat
+                    padding-left: 3rem
+
+            .btn
+                background-color: $color-accent
+                text-align: center
+                @include default-transition
+                @include responsive(tab-land)
+                    position: absolute
+                    top: 100%
+                    left: 50%
+                    transform: translate(-50%, -50%)
+                &:hover
+                    background-color: $color-primary-header
+
+
+
+        .contact-right
+            text-align: right
+            @include responsive(tab-land)
+                text-align: center
+                margin-top: 4rem
+            .address
+                h3
+                    @include section-title
+                    font-size: 2.4rem
+                span
+                    @include span-contact
+
+                img
+                    width: 3.2rem
+                    padding-right: 1rem
+
+            .telephone
+                    h3
+                        @include section-title
+                        font-size: 2.4rem
+
+                    span
+                        @include span-contact
+                    img
+                        width: 3.2rem
+                        padding-right: 1rem
+            .whatsapp
+
+                    h3
+                        @include section-title
+                        font-size: 2.4rem
+
+                    span
+                        @include span-contact
+
+
+                    img
+                        width: 3.2rem
+                        padding-right: 1rem

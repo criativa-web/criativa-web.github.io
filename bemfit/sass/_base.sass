@@ -1,0 +1,21 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: inherit
+
+html
+    font-size: 62.5%
+    box-sizing: border-box
+    @include responsive(big-desktop)
+        font-size: 68%
+    @include responsive(desktop)
+        font-size: 60%
+    @include responsive(tab-land)
+        font-size: 56.25%
+    @include responsive(tab-port)
+        font-size: 50%
+body
+    background-color: $color-primary-dark
+    font-family: $font-family
+    color: $color-white
+    overflow-x: hidden
