@@ -54,8 +54,9 @@
         background-color: #8f3a05;
         flex: 1;
       }
-      nav {
-        width: 600px;
+     nav {
+        width: 100%;
+        max-width: 1000px;
         margin: 50px auto;
         margin-top: 120px;
         display: flex;
@@ -64,6 +65,12 @@
       ul {
         display: flex;
         flex-direction: row;
+      }
+      @media screen and (max-wisth: 578px){
+        ul {
+          display: flex;
+          flex-direction: column;
+        }
       }
       li {
         list-style: none;
