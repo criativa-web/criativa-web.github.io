@@ -3,3 +3,12 @@ b{font-weight:700;color:#6a4c27;font-style:italic;}.text-center{position:relativ
 .bottom {
     margin-top: 15rem!important;
 }
+.portfolio-grid .container .back  h4 {
+        margin-top: 16px;    
+        margin-bottom: 40px!important;       
+       font-size: 25px;       
+}
+.portfolio-grid .container .back p.tools{
+     margin-top: 16px;
+     line-height: 1.2;
+}
