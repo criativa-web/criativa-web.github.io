@@ -3,7 +3,10 @@ b{font-weight:700;color:#6a4c27;font-style:italic;}.text-center{position:relativ
 .bottom {
     margin-top: 15rem!important;
 }
-
+.bottom .social-medias { 
+    justify-content: center;
+    align-items: center;
+}
 
 /** Reformulação da seção Portfólio ***/
 
