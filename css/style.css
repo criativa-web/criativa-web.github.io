@@ -217,7 +217,7 @@ b{font-weight:700;color:#6a4c27;font-style:italic;}.text-center{position:relativ
     gap: 24px;
 }
 .services .service .item {
-	height: 300px;
+    height: 350px;
     border-radius: 12px;
 }
 /*** Seção de contatos ****/
