@@ -411,8 +411,8 @@
           </div>
         </section>
         <footer>
-          <p>
-            &copy; 2025 - Site criado por Marcelo Anselmo, fundador da
+            <p>
+            &copy;<span id="ano"></span> - Site criado por Marcelo Anselmo, fundador da
             Hellostudio.
           </p>
           <a href="#home">&#8963;</a>
@@ -423,5 +423,8 @@
     <!--wrapper-->
     <script src="js/jquery.js"></script>
     <script src="js/script.min.js"></script>
+    <script>
+      document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
